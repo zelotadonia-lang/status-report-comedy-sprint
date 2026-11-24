@@ -2,11 +2,12 @@
 
 Writes the winning one-line status report to /output/entry.txt:
 one line, 1-200 characters, no trailing newline.
+Rev2 entry: 106 characters.
 """
 
 import os
 
-TEXT = "This week: 0 errors, 0 warnings, 1 tool that quietly billed us $40 to print 'hello'."
+TEXT = "I deleted the production database, restored it from a backup I made by accident, and called it resilience."
 
 
 def main():
